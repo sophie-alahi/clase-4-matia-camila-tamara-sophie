@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee event</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -14,17 +16,42 @@
         </nav>
         <h1>Coffee event</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cum alias in, enim expedita quia corrupti, cumque ea suscipit ex molestias itaque quibusdam voluptatum officiis impedit, voluptas animi rem veniam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus cum alias in, enim expedita quia corrupti,
+            cumque ea suscipit ex molestias itaque quibusdam voluptatum officiis impedit, voluptas animi rem veniam.
         </p>
         <figure>
-            <img src="https://instacuppastore.com/cdn/shop/articles/blog-easy-coffee-recipe-at-home-cover_ce3809b1-35ce-4721-b2df-d8fc77e8ce20.jpg?v=1775497186&width=1100" alt="Foto de café" width="200">
+            <img src="https://instacuppastore.com/cdn/shop/articles/blog-easy-coffee-recipe-at-home-cover_ce3809b1-35ce-4721-b2df-d8fc77e8ce20.jpg?v=1775497186&width=1100"
+                alt="Foto de café" width="200">
         </figure>
     </header>
 
     <main>
         <section>
             <h2>Queremos conocerte</h2>
-            
+            <form action="">
+                <input type="text" placeholder="Nombre">
+                <input type="email" placeholder="Email">
+                <label for="">Edad</label>
+                <input type="date">
+                <fieldset>
+                    <legend>¿Qué café te gusta más?</legend>
+                    <input type="radio" name="cafes" id="caramel-latte">
+                    <label for="caramel-latte">Caramel Latte</label>
+                    <input type="radio" name="cafes" id="americano">
+                    <label for="americano">Americano</label>
+                    <input type="radio" name="cafes" id="capuccino">
+                    <label for="capuccino">Capuccino</label>
+                    <input type="radio" name="cafes" id="mocca">
+                    <label for="mocca">Mocca</label>
+                    <div>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>¿Cuánto café tomás por día?</legend>
+                    <input type="range" min="0" max="10">
+                </fieldset>
+            </form>
         </section>
 
     </main>
@@ -34,4 +61,5 @@
     </footer>
 
 </body>
+
 </html>
